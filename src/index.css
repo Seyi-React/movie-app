@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  color: #ccc;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.genre-list label {
+  margin-right: 20px;
+}
+
+.movie-list {
+  margin-top: 30px;
+}
+
+.movie-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-item h3 {
+  margin: 0;
+}
+
+.movie-item p {
+  margin: 0;
+}
